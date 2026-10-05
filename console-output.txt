@@ -1,0 +1,24 @@
+
+Running 19 tests using 1 worker
+
+  ✓   1 tests/emi-calculator.spec.ts:17:7 › EMI Calculator — Dashboard & Controls › TC-01: page loads and all input controls are visible (472ms)
+  ✓   2 tests/emi-calculator.spec.ts:37:7 › EMI Calculator — Dashboard & Controls › TC-02: slider default values are pre-set on load (289ms)
+  ✓   3 tests/emi-calculator.spec.ts:56:7 › EMI Calculator — Formula Validation › TC-03: EMI output matches independently computed value (₹10L, 8.5%, 10yr) (548ms)
+  ✓   4 tests/emi-calculator.spec.ts:83:7 › EMI Calculator — Formula Validation › TC-04: EMI output matches independently computed value (₹5L, 10%, 5yr) (465ms)
+  ✓   5 tests/emi-calculator.spec.ts:101:7 › EMI Calculator — Formula Validation › TC-05: EMI output matches independently computed value (₹2L, 7%, 2yr) (445ms)
+  ✓   6 tests/emi-calculator.spec.ts:119:7 › EMI Calculator — Formula Validation › TC-06: total payable = EMI × months (within rounding tolerance) (466ms)
+  ✓   7 tests/emi-calculator.spec.ts:141:7 › EMI Calculator — Chart & Visual Elements › TC-07: donut chart is visible after calculation (426ms)
+  ✓   8 tests/emi-calculator.spec.ts:153:7 › EMI Calculator — Chart & Visual Elements › TC-08: donut chart shows non-zero interest percentage (448ms)
+  ✓   9 tests/emi-calculator.spec.ts:165:7 › EMI Calculator — Chart & Visual Elements › TC-09: breakdown amounts are populated and not placeholder (458ms)
+  ✓  10 tests/emi-calculator.spec.ts:183:7 › EMI Calculator — Chart & Visual Elements › TC-10: donut SVG arcs have non-zero stroke-dasharray after calculation (485ms)
+  ✓  11 tests/emi-calculator.spec.ts:211:7 › EMI Calculator — Amortization Table › TC-11: table has correct row count for 2-year loan (24 months) (439ms)
+  ✓  12 tests/emi-calculator.spec.ts:226:7 › EMI Calculator — Amortization Table › TC-12: table metadata shows correct month count and total (410ms)
+  ✓  13 tests/emi-calculator.spec.ts:239:7 › EMI Calculator — Amortization Table › TC-13: first row has valid principal, interest and balance values (482ms)
+  ✓  14 tests/emi-calculator.spec.ts:262:7 › EMI Calculator — Amortization Table › TC-14: last row balance is ₹0 (loan fully repaid) (419ms)
+  ✓  15 tests/emi-calculator.spec.ts:282:7 › EMI Calculator — Amortization Table › TC-15: table has correct row count for 10-year loan (120 months) (450ms)
+  ✓  16 tests/emi-calculator.spec.ts:303:7 › EMI Calculator — Edge Cases › TC-16: zero loan amount produces zero EMI (474ms)
+  ✓  17 tests/emi-calculator.spec.ts:317:7 › EMI Calculator — Edge Cases › TC-17: maximum loan amount (₹1 Cr) calculates without error (552ms)
+  ✓  18 tests/emi-calculator.spec.ts:334:7 › EMI Calculator — Edge Cases › TC-18: minimum tenure (1 year) produces 12 table rows (439ms)
+  ✓  19 tests/emi-calculator.spec.ts:349:7 › EMI Calculator — Edge Cases › TC-19: maximum tenure (30 years) produces 360 table rows (540ms)
+
+  19 passed (10.0s)
